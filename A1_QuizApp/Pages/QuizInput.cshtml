@@ -6,6 +6,12 @@
 
 <h1>@Model.Quiz.Title</h1>
 
+@if (Model.ErrMessage is not null)
+{
+    <div class="alert alert-danger">@Model.ErrMessage</div>
+}
+else
+{
 <form method="post" id="quiz-form">
 
     @for (var i = 0; i < Model.Quiz.Questions.Count; i++)
@@ -32,3 +38,4 @@
 
     <button type="submit" class="btn btn-primary">Submit quiz</button>
 </form>
+}

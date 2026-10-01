@@ -99,3 +99,15 @@ C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\De
 C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\Debug\net10.0\A1_QuizApp.pdb
 C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\Debug\net10.0\A1_QuizApp.genruntimeconfig.cache
 C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\Debug\net10.0\ref\A1_QuizApp.dll
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\AppData\CanadianaQuiz.json
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\AppData\MathQuiz.json
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\AppData\WorldGeographyQuiz.json
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\appsettings.Development.json
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\appsettings.json
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\A1_QuizApp.staticwebassets.runtime.json
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\A1_QuizApp.staticwebassets.endpoints.json
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\A1_QuizApp.deps.json
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\A1_QuizApp.runtimeconfig.json
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\A1_QuizApp.dll
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\A1_QuizApp.pdb
+C:\Users\ethan\OneDrive - NBCC\Desktop\IT\source\repos\QuizApp\A1_QuizApp\obj\BuildCheck\A1_QuizApp.exe

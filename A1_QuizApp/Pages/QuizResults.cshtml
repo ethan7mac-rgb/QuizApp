@@ -1,10 +1,29 @@
 ﻿@page
 @model QuizResModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Quiz Results";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>@Model.Quiz.Title Results</h1>
+
+@if (Model.ErrMessage is not null)
+{
+    <div class="alert alert-danger">@Model.ErrMessage</div>
+}
+else
+{
+    <p>Score: @Model.Score / @Model.Quiz.Questions.Count</p>
+
+    @for (int i = 0; i < Model.Quiz.Questions.Count; i++)
+    {
+        var question = Model.Quiz.Questions[i];
+        bool hasAnswer = i < Model.Answers.Count && Model.Answers[i] >= 0 && Model.Answers[i] < question.Choices.Count;
+        bool isCorrect = Model.CorrectAnswers[i];
+
+        <div>
+            <h2 class="h5">@(i + 1). @question.QuestionText</h2>
+            <p>Answer: @question.Choices[Model.Answers[i]]</p>
+            <p class="@(isCorrect ? "text-success" : "text-danger")"> @(isCorrect ? "Correct" : "Incorrect") </p>
+        </div>
+    }
+}
